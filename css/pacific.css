@@ -1,0 +1,95 @@
+/*
+Student: Rory Wirch
+Class: GUI 1
+Professor: Wenjin Zhou
+Asignment: HW2
+Email: rory_wirch@student.uml.edu
+*/
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+body {
+  background-image: url("../images/pacific/ptrbackground.jpg");
+  background-color: #00569f;
+	color: #666666;
+	font-family: Arial, Helvetica;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+#wrapper {
+  background-color: #8FC8E2;
+  display: grid;
+  grid-template-columns: 150px auto;
+  grid-template-rows: 72px auto auto;
+}
+header {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+	padding-left: 20px;
+  background-image: url("../images/pacific/sunset.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: #0e0d3d;
+	color: white;
+}
+nav {
+  padding-top: 10px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+nav ul {
+  margin: 0;
+  padding-left: 20px;
+  list-style-type: none;
+	display: block;
+	font-size: 1.2em;
+}
+nav li a{
+	color: #0E0D3D;
+  text-decoration: none;
+}
+#content {
+	overflow: hidden;
+	display: inline;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  padding: 20px;
+  min-width: 450px;
+  background-color: white;
+}
+#content h2 {
+  color: #3997C5;
+}
+#content span {
+	color: #0C81A2;
+}
+#content img {
+	padding-right: 20px;
+	float: left;
+}
+#content ul {
+	list-style-image: url('../images/pacific/marker.gif');
+}
+footer {
+  padding: 20px;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background-color: white;
+	font-style: italic;
+}
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+}

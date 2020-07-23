@@ -1,0 +1,50 @@
+body{
+  margin: auto;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace
+}
+header {
+  font-size: 24pt;
+  font-weight: bold;
+}
+p {
+  padding-top: 15px;
+  padding-bottom: 5px;
+  margin: auto;
+  width: 450px;
+}
+li {
+  display: block;
+}
+li a {
+  color: black;
+}
+li a:hover {
+  color: blue;
+}
+table {
+  Padding-left: 10px;
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  font-family: veranda;
+  background-color: AliceBlue;
+  border: 2px dotted blue;
+}
+th {
+  border: 1px solid black;
+}
+td {
+  border: 1px double pink;
+}
+#box1 {
+  border-color: black;
+  border-width: 3px;
+  background-color: orange;
+}
+#box2 {
+  border-color: blue;
+  border-width: 4px;
+  border-style: ridge;
+
+}
