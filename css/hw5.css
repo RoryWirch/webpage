@@ -29,14 +29,14 @@ tbody {
 
 /*    Style all rows and all columns     */
 tbody > tr > td {
-  background-color: blue;
-  border: 3px solid #663300;
+  border: 3px solid black;
   color: black;
-  height: 30px;
-  font-size: 140%;
-  font-weight: 500;
   padding: 15px;
   text-align: center;
+}
+/* make every other column light blue */
+td:nth-child(odd) {
+    background: lightblue;
 }
 
 /* Style the top row. */
