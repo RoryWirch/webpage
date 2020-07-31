@@ -9,8 +9,16 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <!-- this overrides the bottom margin for the jumbotron which makes it line up better with the carousel -->
         <title>Homework 5</title>
+        <!-- jQuery and realted files for jQuery plugin -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="http://cdn.jsdelivr.net/jquery.validation/1.14.0/jquery.validate.js"></script>
+        <script src="http://cdn.jsdelivr.net/jquery.validation/1.14.0/additional-methods.js"></script>
+
+        <script type="text/javascript" src="JS/hw5.js"></script>
     </head>
     <body>
+        <!-- navbar for navigating to other assignment pages -->
         <nav class="navbar navbar-inverse navbar-fixed-top navbar-dark bg-dark">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -34,18 +42,22 @@
         <h1>Homework 5</h1>
 
         <!-- form to collect user input -->
-        <form>
-            <label for="#">#:</label>
-            <input type="text" id="#" name="#"><br>
-            <label for="#">#:</label>
-            <input type="text" id="#" name="#"><br>
+        <form id="user_form" method="GET">
+            <label>first horizontal value: </label>
+            <input type="text" id="first_horizontal" name="first_horizontal" required><br>
+            <label>second horizontal value: </label>
+            <input type="text" id="second_horizontal" name="second_horizontal" required><br>
+            <label>first vertical value: </label>
+            <input type="text" id="first_vertical" name="first_vertical" required><br>
+            <label>second vertical value: </label>
+            <input type="text" id="second_vertical" name="second_vertical" required><br>
+            <input type="submit" value="Submit">
         </form>
 
+        <div id="warning_msg"><div>
 
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <div id="dynamic_table"></div>
+
+
     </body>
 </html>
