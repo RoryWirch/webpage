@@ -1,0 +1,66 @@
+/*
+Student: Rory Wirch
+Contact: rory_wirch@student.uml.edu
+Class: GUI I
+Professor: Wenjin Zhou
+Assignment: HW 6
+File: hw6.CSS
+
+this contains all the styling for hw5
+*/
+
+form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#multiplication_table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+tbody {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+/*    Style all rows and all columns     */
+tbody > tr > td {
+  border: 3px solid black;
+  color: black;
+  padding: 15px;
+  text-align: center;
+}
+/* make every other column light blue */
+td:nth-child(odd) {
+    background: lightblue;
+}
+
+/* Style the top row. */
+tbody > tr:first-child > td {
+  background-color: grey;
+  color: white;
+}
+
+/* Style the left most column. */
+tbody > tr > td:first-child {
+  background-color: grey;
+  color: white;
+}
+/* this gives us a blank top left corner */
+tbody > tr:first-child > td:first-child {
+  background-color: #ffffff;
+  border-top: none;
+  border-left: none;
+  color: black;
+  opacity: 0;
+}
