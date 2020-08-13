@@ -9,12 +9,6 @@ File: hw6.CSS
 this contains all the styling for hw5
 */
 
-form {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 div#multiplication_table {
   margin-left: auto;
   margin-right: auto;
