@@ -18,32 +18,26 @@ File: hw8.html
 }
 
 /* styling for piece */
-.tile-piece > img {
+#tile-container img{
     max-width: 50%;
     max-height: 50%;
-    /* set original image height/width
-    height: 180px;
-    width: 165px;
-    */
+    display: block;
 }
 
 .normalScore {
     background-image: url("../images/scrabble/normal-square.png");
-    background-color: blue;
     width: 72px;
     height: 80px;
 }
 
 .doubleLetterScore {
     background-image: url("../images/scrabble/double-letter-square.png");
-    background-color: yellow;
     width: 72px;
     height: 80px;
 }
 
 .doubleWordScore {
     background-image: url("../images/scrabble/double-word-square.png");
-    background-color: orange;
     width: 72px;
     height: 80px;
 }
