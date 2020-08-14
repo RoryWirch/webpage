@@ -46,58 +46,53 @@ File: hw8.html
         </nav>
         <h1>Homework 8</h1>
 
-        <!-- beginning of draf and drop inteface -->
-        <div>
-                <table id="board">
-                    <tr>
-                        <td id="square0" class="normalScore" class="dropTarget">1</td>
-
-                        <td id="square1" class="normalScore" class="dropTarget"></td>
-
-                        <td id="square2" class="doubleWordScore" class="dropTarget"></td>
-
-                        <td id="square3" class="normalScore" class="dropTarget"></td>
-
-                        <td id="square4" class="normalScore" class="dropTarget"></td>
-
-                        <td id="square5" class="normalScore" class="dropTarget"></td>
-
-                        <td id="square6" class="doubleLetterScore" class="dropTarget"></td>
-
-                        <td id="square7" class="normalScore" class="dropTarget"></td>
-
-                        <td id="square8" class="doubleLetterScore" class="dropTarget"></td>
-
-                        <td id="square9" class="normalScore" class="dropTarget"></td>
-
-                        <td id="square10" class="normalScore" class="dropTarget"></td>
-
-                        <td id="square11" class="normalScore" class="dropTarget"></td>
-
-                        <td id="square12" class="doubleWordScore" class="dropTarget"></td>
-
-                        <td id="square13" class="normalScore" class="dropTarget"></td>
-
-                        <td id="square14" class="normalScore" class="dropTarget"></td>
-                    </tr>
-                </table>
+        <!-- scrabble board pieces will be held in the div below -->
+        <div id="scrabble-board">
         </div>
 
+        <br><br>
+        <!-- div to contain tiles and holder -->
         <div class="row">
             <div class="col-md-4"></div>
-
+            <img src="images/scrabble/scrabble-tile-holder.webp" id="holder">
+            <!-- tiles will be held within the div below -->
             <div id="tile-container">
-                <img src="images/scrabble/Scrabble_Tile_A.jpg" id="piece">
             </div>
 
             <div class="col-md-4"></div>
         </div>
+        <br><br>
 
-        <div id="snapTarget">
-            <p>snap target</p>
+        <!-- holds a space for the played word(s?) to go -->
+        <div class="row" id="word-div">
+            <div class="col-md-4"></div>
+            <p>Words played: </p>
+            <div id="word">-------</div>
+            <div class="col-md-4"></div>
         </div>
 
+        <!-- holds a place for the score to go -->
+        <div class="row" id="score-div">
+            <div class="col-md-4"></div>
+            <p>Score: <p>
+            <div id="score"></div>
 
+            <div class="col-md-4"></div>
+        </div>
+        <br>
+
+        <!-- holds play word button -->
+        <div class="row">
+            <div class="col-md-4"></div>
+
+            <div id="buttons">
+                <label for="get your word score and refill your hand!"></label>
+                <button onclick="submit()" name="play">Play word</button>
+
+            </div>
+
+            <div class="col-md-4"></div>
+        </div>
 
 
 
