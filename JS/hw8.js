@@ -13,37 +13,37 @@ var global_score = 0;
 /* this data structure is from professor heines, it will be used to keep track
 of the tiles */
 var ScrabbleTiles = [] ;
-ScrabbleTiles["A"] = { "value" : 1,  "original-distribution" : 9,  "number-remaining" : 9  } ;
-ScrabbleTiles["B"] = { "value" : 3,  "original-distribution" : 2,  "number-remaining" : 2  } ;
-ScrabbleTiles["C"] = { "value" : 3,  "original-distribution" : 2,  "number-remaining" : 2  } ;
-ScrabbleTiles["D"] = { "value" : 2,  "original-distribution" : 4,  "number-remaining" : 4  } ;
-ScrabbleTiles["E"] = { "value" : 1,  "original-distribution" : 12, "number-remaining" : 12 } ;
-ScrabbleTiles["F"] = { "value" : 4,  "original-distribution" : 2,  "number-remaining" : 2  } ;
-ScrabbleTiles["G"] = { "value" : 2,  "original-distribution" : 3,  "number-remaining" : 3  } ;
-ScrabbleTiles["H"] = { "value" : 4,  "original-distribution" : 2,  "number-remaining" : 2  } ;
-ScrabbleTiles["I"] = { "value" : 1,  "original-distribution" : 9,  "number-remaining" : 9  } ;
-ScrabbleTiles["J"] = { "value" : 8,  "original-distribution" : 1,  "number-remaining" : 1  } ;
-ScrabbleTiles["K"] = { "value" : 5,  "original-distribution" : 1,  "number-remaining" : 1  } ;
-ScrabbleTiles["L"] = { "value" : 1,  "original-distribution" : 4,  "number-remaining" : 4  } ;
-ScrabbleTiles["M"] = { "value" : 3,  "original-distribution" : 2,  "number-remaining" : 2  } ;
-ScrabbleTiles["N"] = { "value" : 1,  "original-distribution" : 6,  "number-remaining" : 6  } ;
-ScrabbleTiles["O"] = { "value" : 1,  "original-distribution" : 8,  "number-remaining" : 8  } ;
-ScrabbleTiles["P"] = { "value" : 3,  "original-distribution" : 2,  "number-remaining" : 2  } ;
-ScrabbleTiles["Q"] = { "value" : 10, "original-distribution" : 1,  "number-remaining" : 1  } ;
-ScrabbleTiles["R"] = { "value" : 1,  "original-distribution" : 6,  "number-remaining" : 6  } ;
-ScrabbleTiles["S"] = { "value" : 1,  "original-distribution" : 4,  "number-remaining" : 4  } ;
-ScrabbleTiles["T"] = { "value" : 1,  "original-distribution" : 6,  "number-remaining" : 6  } ;
-ScrabbleTiles["U"] = { "value" : 1,  "original-distribution" : 4,  "number-remaining" : 4  } ;
-ScrabbleTiles["V"] = { "value" : 4,  "original-distribution" : 2,  "number-remaining" : 2  } ;
-ScrabbleTiles["W"] = { "value" : 4,  "original-distribution" : 2,  "number-remaining" : 2  } ;
-ScrabbleTiles["X"] = { "value" : 8,  "original-distribution" : 1,  "number-remaining" : 1  } ;
-ScrabbleTiles["Y"] = { "value" : 4,  "original-distribution" : 2,  "number-remaining" : 2  } ;
-ScrabbleTiles["Z"] = { "value" : 10, "original-distribution" : 1,  "number-remaining" : 1  } ;
-ScrabbleTiles["_"] = { "value" : 0,  "original-distribution" : 2,  "number-remaining" : 2  } ;
+ScrabbleTiles["A"] = { "value" : 1,  "original-distribution" : 9,  "number-remaining" : 1  } ;
+ScrabbleTiles["B"] = { "value" : 3,  "original-distribution" : 2,  "number-remaining" : 1  } ;
+ScrabbleTiles["C"] = { "value" : 3,  "original-distribution" : 2,  "number-remaining" : 1  } ;
+ScrabbleTiles["D"] = { "value" : 2,  "original-distribution" : 4,  "number-remaining" : 1  } ;
+ScrabbleTiles["E"] = { "value" : 1,  "original-distribution" : 12, "number-remaining" : 1 } ;
+ScrabbleTiles["F"] = { "value" : 4,  "original-distribution" : 2,  "number-remaining" : 1  } ;
+ScrabbleTiles["G"] = { "value" : 2,  "original-distribution" : 3,  "number-remaining" : 1  } ;
+ScrabbleTiles["H"] = { "value" : 4,  "original-distribution" : 2,  "number-remaining" : 1  } ;
+ScrabbleTiles["I"] = { "value" : 1,  "original-distribution" : 9,  "number-remaining" : 1  } ;
+ScrabbleTiles["J"] = { "value" : 8,  "original-distribution" : 1,  "number-remaining" : 0  } ;
+ScrabbleTiles["K"] = { "value" : 5,  "original-distribution" : 1,  "number-remaining" : 0  } ;
+ScrabbleTiles["L"] = { "value" : 1,  "original-distribution" : 4,  "number-remaining" : 0  } ;
+ScrabbleTiles["M"] = { "value" : 3,  "original-distribution" : 2,  "number-remaining" : 0  } ;
+ScrabbleTiles["N"] = { "value" : 1,  "original-distribution" : 6,  "number-remaining" : 0  } ;
+ScrabbleTiles["O"] = { "value" : 1,  "original-distribution" : 8,  "number-remaining" : 0  } ;
+ScrabbleTiles["P"] = { "value" : 3,  "original-distribution" : 2,  "number-remaining" : 0  } ;
+ScrabbleTiles["Q"] = { "value" : 10, "original-distribution" : 1,  "number-remaining" : 0  } ;
+ScrabbleTiles["R"] = { "value" : 1,  "original-distribution" : 6,  "number-remaining" : 0  } ;
+ScrabbleTiles["S"] = { "value" : 1,  "original-distribution" : 4,  "number-remaining" : 0  } ;
+ScrabbleTiles["T"] = { "value" : 1,  "original-distribution" : 6,  "number-remaining" : 0  } ;
+ScrabbleTiles["U"] = { "value" : 1,  "original-distribution" : 4,  "number-remaining" : 0  } ;
+ScrabbleTiles["V"] = { "value" : 4,  "original-distribution" : 2,  "number-remaining" : 0  } ;
+ScrabbleTiles["W"] = { "value" : 4,  "original-distribution" : 2,  "number-remaining" : 0  } ;
+ScrabbleTiles["X"] = { "value" : 8,  "original-distribution" : 1,  "number-remaining" : 0  } ;
+ScrabbleTiles["Y"] = { "value" : 4,  "original-distribution" : 2,  "number-remaining" : 0  } ;
+ScrabbleTiles["Z"] = { "value" : 10, "original-distribution" : 1,  "number-remaining" : 0  } ;
+ScrabbleTiles["Blank"] = { "value" : 0,  "original-distribution" : 2,  "number-remaining" : 0  } ;
 
 /* used when choosing tiles for the board */
 var alpha_list = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O',
-                    'P','Q','R','S','T','U','V','W','X','Y','Z','_'];
+                    'P','Q','R','S','T','U','V','W','X','Y','Z','Blank'];
 
 var playable_index = [];
 
@@ -110,6 +110,12 @@ function submit(){
 
     //add score to page
     $('#score').html(global_score);
+    //clear boards
+    $("#scrabble-board").html('');
+    $("#tile-container").html('');
+
+    // reset scrabble board data structure
+    reset_scrabble_board();
 
     //load new board
     load_board();
@@ -117,27 +123,45 @@ function submit(){
     //load new tiles
     load_tiles();
 
+    console.log(ScrabbleTiles);
+
+}
+
+//resets all 'tile' to 'no'
+function reset_scrabble_board(){
+    for (var i = 0; i < 15; i++){
+        scrabble_board[i]['tile'] = 'no';
+    }
+}
+//checks if all pieces have been used, returns int
+function get_num_pieces(){
+    var num_pieces = 0;
+    for (var i = 0; i < alpha_list.length; i ++){
+        var cur_letter = alpha_list[i];
+
+        num_pieces += ScrabbleTiles[cur_letter]['number-remaining'];
+    }
+    return num_pieces;
 }
 
 /* return score from current game */
 function get_score(){
-    var letter_mult = 1;
     var word_mult = 1;
     var running_val = 0;
 
     for (var i = 0; i < 15; i++){
+        var letter_mult = 1;
         var square_id = scrabble_board[i]['id'];
 
         if(scrabble_board[i]['tile'] != 'no'){
             var letter = get_letter(scrabble_board[i]['tile']);
-
             var letter_val = ScrabbleTiles[letter]['value'];
             /* check for multipliers */
             /* check fro double word */
             if (square_id == 'square2' || square_id == 'square12'){
                 word_mult = word_mult * 2;
             } else if (square_id =='square6' || square_id == 'square8'){
-                letter
+                letter_mult *= 2;
             }
             //calculate value for this letter
             running_val += letter_val * letter_mult;
@@ -177,37 +201,40 @@ function get_letter(tile_id){
 function load_tiles(){
     /* determine which letters are placed in holder */
     for(var i = 0; i < 7; i++) {
-        /* check to see if there are tiles left from previous round */
-        if (tile_state[i]['played'] == false){
-            /* check to see if 'letter' is no, if it is then it hasn't been played
-            and should be kept as is */
-            if (tile_state[i]['letter'] != 'no'){
+        /* check to see if this tile has been played before */
+        if (tile_state[i]['letter'] != 'no' && tile_state[i]['played'] == false){
+            break;
+        }
+
+        /* flag is true until a suitable number is found (case where all
+        tiles of a certain letter have been played) */
+        var flag = true;
+        while(flag) {
+            /*get index for alpha_list */
+            var index = Math.floor((Math.random() * alpha_list.length));
+            var temp_letter = alpha_list[index];
+
+            if(get_num_pieces() == 0){
                 break;
             }
-            /* flag is true until a suitable number is found (case where all
-            tiles of a certain letter have been played) */
-            var flag = true;
-            while(flag) {
-                /*get index for alpha_list */
-                var index = Math.floor((Math.random() * alpha_list.length));
-                var temp_letter = alpha_list[index];
 
-                /* used for debugging
-                console.log("pass: " + i);
-                console.log("index: " + index);
-                console.log("letter: " + temp_letter);
-                console.log("dict test: " + ScrabbleTiles[temp_letter]['number-remaining']);
-                console.log("length: " + alpha_list.length);
-                */
-                /* the tile can be placed onto the holder */
-                if (ScrabbleTiles[temp_letter]['number-remaining'] > 0) {
-                    flag = false;
-                    ScrabbleTiles[temp_letter]['number-remaining'] -= 1;
-                    if (temp_letter === '_') {
-                        tile_state[i]['letter'] = 'Blank';
-                    } else {
-                        tile_state[i]['letter'] = temp_letter;
-                    }
+            /* used for debugging
+            console.log("pass: " + i);
+            console.log("index: " + index);
+            console.log("letter: " + temp_letter);
+            console.log("dict test: " + ScrabbleTiles[temp_letter]['number-remaining']);
+            console.log("length: " + alpha_list.length);
+            */
+            /* the tile can be placed onto the holder */
+            if (ScrabbleTiles[temp_letter]['number-remaining'] > 0) {
+                flag = false;
+                tile_state[i]['played'] = false;
+                ScrabbleTiles[temp_letter]['number-remaining'] -= 1;
+
+                if (temp_letter === '_') {
+                    tile_state[i]['letter'] = 'Blank';
+                } else {
+                    tile_state[i]['letter'] = temp_letter;
                 }
             }
         }
@@ -223,11 +250,13 @@ function load_tiles(){
 
     /* build img element */
     for (var i = 0; i < 7; i++) {
+        //
         var letter = tile_state[i]['letter'];
         var tile_id = '#tile' + i;
         // create img
         var tile_img = "<img class='tiles' id='" + tile_state[i]['id'] + "' src='" +
                         base_url + letter + ".jpg'></img>";
+
 
         /* place img in tile-container div */
         $('#tile-container').append(tile_img);
@@ -294,24 +323,6 @@ function load_board() {
     }
 }
 
-
-
-
-    /* this is our draggable tile, it will reset pos unless dropped on one of
-    the scrabble board pieces
-
-    $("#piece").draggable({
-        revert: 'invalid'
-    });
-
-    $("#snapTarget").droppable({
-        accept: '#tile-container img',
-        drop: handleTileDrop
-    });
-    */
-
-
-
 /* handle tile drop */
 function handleTileDrop(event, ui) {
     var played_index;
@@ -330,7 +341,7 @@ function handleTileDrop(event, ui) {
     /* update tile_state to show tile played */
     for (var i = 0; i < 7; i ++){
         if (tile_state[i]['id'] == ui.draggable.attr('id')){
-            tile_state[i]['played'] == true;
+            tile_state[i]['played'] = true;
             break;
         }
     }
@@ -341,10 +352,10 @@ function handleTileDrop(event, ui) {
         my: 'center center',
         at: 'center center'
     });
-
+    /*
     console.log("ui Id: " + ui.draggable.attr('id'));
     console.log("this id: " + $(this).attr('id'));
-
+    */
     /* don't allow more drops on this square */
     /* found here: https://stackoverflow.com/questions/3948447/jquery-ui-droppable-only-accept-one-draggable */
     $(this).droppable('option', 'accept', ui.draggable);
